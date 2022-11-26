@@ -27,6 +27,25 @@
     <title>React App</title>
   </head>
   <body>
+        <script type="module">
+          // Import the functions you need from the SDKs you need
+          import { initializeApp } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-app.js";
+          // TODO: Add SDKs for Firebase products that you want to use
+          // https://firebase.google.com/docs/web/setup#available-libraries
+
+          // Your web app's Firebase configuration
+          const firebaseConfig = {
+            apiKey: "AIzaSyAy90bX6U5yEbdYlBG4f968CeB8L3h0LuQ",
+            authDomain: "deploy-reactjs-2feaf.firebaseapp.com",
+            projectId: "deploy-reactjs-2feaf",
+            storageBucket: "deploy-reactjs-2feaf.appspot.com",
+            messagingSenderId: "791866202846",
+            appId: "1:791866202846:web:95944c5de83e2d2898c04f"
+          };
+
+          // Initialize Firebase
+          const app = initializeApp(firebaseConfig);
+        </script>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--

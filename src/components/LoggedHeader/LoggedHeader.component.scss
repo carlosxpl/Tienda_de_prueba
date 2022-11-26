@@ -1,0 +1,12 @@
+@import "src/colors.scss";
+@import "../MensajesHeader/MensajesHeader.component.scss";
+@import "../../pages/Mensajes.view.scss";
+.logged{
+    @extend .Boton;
+    background-color: $dark;
+}
+
+
+.logged-container{
+    margin: 20px 20px ;
+}
